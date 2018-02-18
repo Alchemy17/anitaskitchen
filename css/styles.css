@@ -35,13 +35,8 @@ font-family: 'Handlee';
 #header{
 	font-size: 40px;
 	font-family:cursive;
-	font-color: ffff;
+	font-color: #ffff;
 	color: white;
-}
-
-.text {
-color: white;
-font-size: 40px;
 }
 .txtt {
 	padding-top: 50px;
