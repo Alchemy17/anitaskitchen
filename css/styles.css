@@ -1,28 +1,186 @@
+body{
+margin: 0;
+font-family: 'Handlee';
+}
 .jumbotron{
 	background-image: url("../img/backgrounds/landing.jpg");
-	/*background-color: blue;*/
-	/*position: fixed;;*/
 	height: 100vh;
 	width:100%;
 	background-repeat: no-repeat;
 	background-size:cover;
-	/*text-align: center;*/
 	display: flex;
 	justify-content:center;
 	align-items:center;
 	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px;
+	border: none;
 }
+.jumbotron2{
+	background-image: url("../img/backgrounds/subscribe.jpg");
+	height: 30vh;
+	width:100%;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	justify-content:center;
+	align-items:center;
+	margin: 0%;
+  margin-top: 7%;
+	padding: 0px;
+	border: none;
+}
+
 #header{
-	/*font-style: solid;*/
 	font-size: 40px;
 	font-family:cursive;
-	font-color: ffff;
 	color: white;
 }
-.logo{
+.txtt {
+	padding-top: 50px;
+	padding-left: 80px;
+	color: white;
+	font-size:40px;
+}
+.txt{
+	padding-top: 50px;
+	padding-left: 80px;
+	color:black;
+	font-size:40px;
+}
+.txttt {
+	padding-top: 90px;
+	padding-left: 110px;
+	color: white;
+	font-size:40px;
+}
+.clr{
+	background-color:#F15A29;
+}
+.lngth{
+	height: 150px;
+	width:100%;
+}
+.padding-0{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	padding-right: 0px;
+}
+.padding-01{
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+
+.border{
+	-webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+	-moz-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+	box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+	border-style: solid;
+	border-color: transparent;
+	margin-top: 7%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.brd{
+		margin-top: 10%;
+		padding: 0px;
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+		float: right;
+}
+.myclass {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+	margin: 0px;
+	padding: 20px;
+}
+.bg{
+	padding: 0;
+	height: 600px;
+	width:100%;
+	background-image: url(../img/backgrounds/foodsBg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#bord{
+	 padding-left:20px;
+	 border-left: 1px solid #ccc;
+	 text-align: center;
+}
+.form2{
+	margin: 20px;
+	background-color:#F15A29;
+	display:inline-block;
+	color:#ffffff;
+	font-size:28px;
+	font-weight: 500;
+	padding:6px 50px;
+	border-radius: 5px;
+}
+.form1 {
 	text-align: center;
-	margin-top: 200px;
-	font-color: white;
+	margin: 20px;
+	background:rgba(250,250,250,0.5);
+	padding: 6px;
+	width: 50%;
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: #ecf0f1;
+	font-size: 28px;
+	font-weight: 100;
+	color: #ffffff;
+	border-radius: 5px;
+}
+#text6{
+	 text-align: center;
+	 color: white;
+}
+footer{
+	background-color: #F15A29;
+	padding-top: 3rem;
+}
+.container-fluid1{
+	  padding-right: 0px;
+	  padding-left: 0px;
+	  margin-right: 0px;
+	  margin-left: 0px;
+		margin: 0px;
+		padding: 0px;
+}
+.overlay-mini {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background:rgba(0,0,0,0.0);
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		transition: .5s ease;
+}
+
+.overlay-mini:hover {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background:rgba(250,250,250,0.5);
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		transition: .5s ease;
+}
+.padding-0:hover .txttt{
+	color: #000000;
 }
 
 .bar1, .bar2, .bar3 {
