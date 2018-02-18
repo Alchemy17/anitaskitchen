@@ -15,6 +15,21 @@
 	margin: 0px;
 	border: none;
 }
+.jumbotron2{
+	background-image: url("../img/backgrounds/subscribe.jpg");
+	height: 100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	/*text-align: center;*/
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
 #header{
 	/*font-style: solid;*/
 	font-size: 40px;
@@ -79,4 +94,10 @@ width:300px;
 #bord{
 	 padding-left:20px;
 	 border-left: 1px solid #ccc;
+}
+.back{
+	padding: 0;
+	height: 300px;
+	background-image: url(../img/backgrounds/subscribe.jpg);
+	background-attachment: fixed;
 }
