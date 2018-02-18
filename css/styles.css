@@ -4,8 +4,6 @@ font-family: 'Handlee';
 }
 .jumbotron{
 	background-image: url("../img/backgrounds/landing.jpg");
-	/*background-color: blue;*/
-	/*position: fixed;;*/
 	height: 100vh;
 	width:100%;
 	background-repeat: no-repeat;
@@ -35,22 +33,40 @@ font-family: 'Handlee';
 }
 
 #header{
-	/*font-style: solid;*/
 	font-size: 40px;
 	font-family:cursive;
 	font-color: ffff;
 	color: white;
 }
+
 .text {
 color: white;
 font-size: 40px;
 }
-.bg-00{
+.txtt {
+	padding-top: 50px;
+	padding-left: 80px;
+	color: white;
+	font-size:40px;
+}
+.txt{
+	padding-top: 50px;
+	padding-left: 80px;
+	color:black;
+	font-size:40px;
+}
+.txttt {
+	padding-top: 90px;
+	padding-left: 110px;
+	color: white;
+	font-size:40px;
+}
+.clr{
 background-color:#F15A29;
 }
-.happy{
-height: 119px;
-width:300px;
+.lngth{
+height: 150px;
+width:100%;
 }
 .padding-0{
 	padding: 0px;
@@ -75,6 +91,7 @@ width:300px;
 		height: auto;
 		max-width: 100%;
 		max-height: 100%;
+		float: right;
 }
 .myclass {
   width: auto;
@@ -105,7 +122,6 @@ width:300px;
 	font-size:28px;
 	font-weight: 500;
 	padding:6px 50px;
-	text-decoration:none;
 	border-radius: 5px;
 }
 .form1 {
@@ -138,4 +154,28 @@ footer{
 	  margin-left: 0px;
 		margin: 0px;
 		padding: 0px;
+}
+.overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(0,0,0,0.0);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+
+.overlay-mini:hover {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(250,250,250,0.5);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+.padding-0:hover .txttt{
+	color: #000000;
 }
