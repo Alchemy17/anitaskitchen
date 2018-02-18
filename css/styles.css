@@ -56,11 +56,11 @@ font-family: 'Handlee';
 	font-size:40px;
 }
 .clr{
-background-color:#F15A29;
+	background-color:#F15A29;
 }
 .lngth{
-height: 150px;
-width:100%;
+	height: 150px;
+	width:100%;
 }
 .padding-0{
 	padding: 0px;
@@ -149,7 +149,6 @@ width:100%;
 footer{
 	background-color: #F15A29;
 	padding-top: 3rem;
-	padding-bottom: 2rem;
 }
 .container-fluid1{
 	  padding-right: 0px;
@@ -160,25 +159,25 @@ footer{
 		padding: 0px;
 }
 .overlay-mini {
-position: absolute;
-bottom: 0;
-right: 0;
-background:rgba(0,0,0,0.0);
-overflow: hidden;
-width: 100%;
-height: 100%;
-transition: .5s ease;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background:rgba(0,0,0,0.0);
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		transition: .5s ease;
 }
 
 .overlay-mini:hover {
-position: absolute;
-bottom: 0;
-right: 0;
-background:rgba(250,250,250,0.5);
-overflow: hidden;
-width: 100%;
-height: 100%;
-transition: .5s ease;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background:rgba(250,250,250,0.5);
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		transition: .5s ease;
 }
 .padding-0:hover .txttt{
 	color: #000000;
