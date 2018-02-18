@@ -49,7 +49,7 @@ width:300px;
 	box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
 	border-style: solid;
 	border-color: transparent;
-	margin-top: 10%;
+	margin-top: 7%;
 }
 .brd{
 		margin-top: 10%;
@@ -66,4 +66,17 @@ width:300px;
   max-height: 100%;
 	margin: 0px;
 	padding: 20px;
+}
+.media2{
+	padding: 0;
+	height: 600px;
+	width:100%;
+	background-image: url(../img/backgrounds/foodsBg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#bord{
+	 padding-left:20px;
+	 border-left: 1px solid #ccc;
 }
