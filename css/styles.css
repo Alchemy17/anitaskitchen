@@ -35,7 +35,6 @@ font-family: 'Handlee';
 #header{
 	font-size: 40px;
 	font-family:cursive;
-	font-color: #ffff;
 	color: white;
 }
 .txtt {
@@ -69,6 +68,15 @@ width:100%;
 	border: none;
 	padding-right: 0px;
 }
+.padding-01{
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+
 .border{
 	-webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
 	-moz-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
@@ -96,7 +104,7 @@ width:100%;
 	margin: 0px;
 	padding: 20px;
 }
-.media2{
+.bg{
 	padding: 0;
 	height: 600px;
 	width:100%;
@@ -108,6 +116,7 @@ width:100%;
 #bord{
 	 padding-left:20px;
 	 border-left: 1px solid #ccc;
+	 text-align: center;
 }
 .form2{
 	margin: 20px;
