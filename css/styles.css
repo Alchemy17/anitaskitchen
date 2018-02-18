@@ -1,3 +1,7 @@
+body{
+margin: 0;
+font-family: 'Handlee';
+}
 .jumbotron{
 	background-image: url("../img/backgrounds/landing.jpg");
 	/*background-color: blue;*/
@@ -6,7 +10,6 @@
 	width:100%;
 	background-repeat: no-repeat;
 	background-size:cover;
-	/*text-align: center;*/
 	display: flex;
 	justify-content:center;
 	align-items:center;
@@ -17,15 +20,18 @@
 }
 .jumbotron2{
 	background-image: url("../img/backgrounds/subscribe.jpg");
-	height: 25vh;
+	height: 30vh;
 	width:100%;
+	padding: 0px;
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
-	display: flex;
 	justify-content:center;
 	align-items:center;
+	margin: 0%;
   margin-top: 7%;
+	padding: 0px;
+	border: none;
 }
 
 #header{
@@ -34,11 +40,6 @@
 	font-family:cursive;
 	font-color: ffff;
 	color: white;
-}
-.logo{
-	text-align: center;
-	margin-top: 200px;
-	font-color: white;
 }
 .text {
 color: white;
@@ -55,6 +56,7 @@ width:300px;
 	padding: 0px;
 	margin: 0px;
 	border: none;
+	padding-right: 0px;
 }
 .border{
 	-webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
@@ -63,6 +65,8 @@ width:300px;
 	border-style: solid;
 	border-color: transparent;
 	margin-top: 7%;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 .brd{
 		margin-top: 10%;
@@ -112,7 +116,6 @@ width:300px;
 	width: 50%;
 	margin-bottom: 20px;
 	border-bottom-width: 1px;
-	border-bottom-style: none;
 	border-bottom-color: #ecf0f1;
 	font-size: 28px;
 	font-weight: 100;
@@ -123,14 +126,16 @@ width:300px;
 	 text-align: center;
 	 color: white;
 }
-.social{
-text-align: center;
-margin-top: 0.05%;
-color: #ffffff;
+footer{
+	background-color: #F15A29;
+	padding-top: 3rem;
+	padding-bottom: 7rem;
 }
-.footer{
-padding: 0;
-height: 300px;
-width:100%;
-background-color:#F15A29;
+.container-fluid1{
+	  padding-right: 0px;
+	  padding-left: 0px;
+	  margin-right: 0px;
+	  margin-left: 0px;
+		margin: 0px;
+		padding: 0px;
 }
