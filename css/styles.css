@@ -123,3 +123,14 @@ width:300px;
 	 text-align: center;
 	 color: white;
 }
+.social{
+text-align: center;
+margin-top: 0.05%;
+color: #ffffff;
+}
+.footer{
+padding: 0;
+height: 300px;
+width:100%;
+background-color:#F15A29;
+}
