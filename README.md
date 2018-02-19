@@ -1,14 +1,14 @@
-Anita's Kitchen
+# Anita's Kitchen
 
 This is a project about making a website for Anita's Restaurant. It has been written using HTML, CSS and BOOTSTRAP.
 
-By Abdulrahman Mohamed
+### By Abdulrahman Mohamed
 
-Description
+## Description
 
 Images were provided by Moringa School but the designing was done by me, using knowledge from Moringa and other sources as well
 
-Requirements
+### Requirements
 
 A working browser.
 Technologies Used
@@ -20,6 +20,6 @@ Support and contact details
 
 https://github.com/Alchemy17?tab=repositories
 
-License
+### License
 
-MIT Copyright (c) 2018
+#### MIT Copyright (c) 2018
