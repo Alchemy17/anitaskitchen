@@ -34,7 +34,6 @@ font-family: 'Handlee';
 
 #header{
 	font-size: 40px;
-	font-family:cursive;
 	color: white;
 }
 .txtt {
@@ -59,7 +58,7 @@ font-family: 'Handlee';
 	background-color:#F15A29;
 }
 .lngth{
-	height: 150px;
+	height: 143px;
 	width:100%;
 }
 .padding-0{
@@ -112,6 +111,12 @@ font-family: 'Handlee';
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+}
+.btnn {
+	background-color: white;
+	color: #F15A29;
+	border: 1px solid #F15A29;
+	padding: 14px;
 }
 #bord{
 	 padding-left:20px;
