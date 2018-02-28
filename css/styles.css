@@ -2,6 +2,46 @@ body{
 margin: 0;
 font-family: 'Handlee';
 }
+#open-menu, #close-menu{
+  position: absolute;
+  font-size: 300%;
+}
+#close-menu{
+  left: 80%;
+  color: white;
+  top: 10%;
+}
+
+#open-menu{
+  left: 5%;
+	color: white;
+	top: 20%;
+}
+
+aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  background-color: #F15A29;
+  left: -100%;
+
+}
+
+#the-menu{
+  list-style: none;
+}
+#the-menu li{
+  padding: 15%;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+#the-menu a{
+  color: white;
+}
 .jumbotron{
 	background-image: url("../img/backgrounds/landing.jpg");
 	height: 100vh;
@@ -72,6 +112,20 @@ font-family: 'Handlee';
 	margin-left: 20px;
 	padding-left: 100px;
 	padding-right: 100px;
+}
+.padding-02{
+  padding: 10px;
+	margin: 0px;
+	border: none;
+	padding-right: 0px;
+
+  -webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+  -moz-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+  box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+  border-style: solid;
+  border-color: transparent;
+  margin-top: 7%;
+  width: 530px;
 }
 
 
@@ -194,4 +248,69 @@ footer{
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
+}
+#foods{
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  height: 60vh;
+  background-attachment: fixed;
+  width: 100%;
+  margin-top: 7%;
+}
+#foods .tab{
+  position: relative;
+  border: 1px;
+  border-color: inherit;
+}
+/* Style buttons that are used to open the tab content */
+.tab button {
+text-align: center;
+background-color: inherit;
+    width:70%
+    float: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  background-color: white;
+  width: 79.2%;
+  margin-left: 15px;
+
+}
+.padding04{
+  padding-left: 80px;
+  font-size: 20px;
+  margin-left: 270px;
+}
+#padding04{
+    font-size: 20px;
+}
+.img-set img {
+  width: auto;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+#move{
+  margin-left: 18%;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 80.8%;
+
+}
+figcaption{
+  color: #F15A29;
+  text-align: center;
 }

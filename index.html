@@ -4,15 +4,30 @@
     <link href="css/bootstrap.css" rel="stylesheet" style="text/css">
 	  <link href="css/styles.css" rel="stylesheet" style="text/css">
 	  <link rel="stylesheet" type="text/css" href="https://www.google.com/fonts">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Anita's Restaurant </title>
   </head>
   <body>
+
+
     <!--Header-->
     <div class="row">
       <div class="col-md-12 jumbotron">
+        <!--Hamburger Menu-->
+        <i id="open-menu" class="fas fa-bars"></i>
+        <aside>
+          <i class="fas fa-times" id="close-menu"></i>
+          <ul id="the-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+         </ul>
+       </aside>
         <div class="text-center">
+         <!--End Hamburger Menu-->
           <img src="img/logoBig.png">
           <h1 id="header">We Provide The Best Food <br>At The Right Price</h1>
         </div>
@@ -24,6 +39,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 padding-0">
+                  <div class="row">
             <div class="col-md-12">
                 <div class="lngth">
                   <h2 class="txt">Happy Hour</h2>
@@ -33,6 +49,7 @@
                 <div class="lngth">
                   <h2 class="txtt">Party Time</div>
                 </div>
+              </div>
         </div>
         <div class="col-md-3 padding-0">
             <img src="img/foodtop/breakfast.jpg"  class="img-fluid" style="display:inline" alt="Breakfast" width="100%" height="100%">
@@ -99,13 +116,10 @@
        </div>
        <div class="col-md-1">
        </div>
-       <div class="border">
-       <div class="col-md-4 myclass">
-         <div class="col-md-12">
-           <img src="img/fastFood1.jpg"  class="img-responsive" alt="fastFood1">
-          </div>
-         <div class="col-md-12">
-           <img src="img/fastFood2.jpg" alt="fastFood1" class="img-responsive">
+       <div class="col-md-5">
+         <div class="padding-02">
+           <img src="img/drink1.jpg"  class="img-responsive" alt="fastFood1">
+           <img src="img/drink2.jpg" alt="fastFood1" class="img-responsive">
         </div>
       </div>
     </div>
@@ -114,14 +128,53 @@
     <!--end 4th row-->
 
     <!--5th row-->
-    <div class="container-fluid">
-    <div class="col-md-12 jumbotron bg" style="margin-top: 7%;">
-    		<div class="text-center">
-    		<img src="img/fastfood/beefBurger.jpg"  class="img-responsive" alt="Dinner">
-    		<img src="img/fastfood/chickenBurger.jpg"  class="img-responsive" alt="Dinner">
-    		<img src="img/fastfood/chickenPizza.jpg"  class="img-responsive" alt="Dinner">
-        </div>
+    <section id="foods">
+    </br>
+    </br>
+    </br>
+    </br>
+      <div  id="move">
+      <div class="col-md-12">
+        <div class="tab">
+        <button id="padding04" style="background-color: white; color: #F15A29;">Fast Food</button>
+        <button class="padding04">Drinks</button>
+        <button class="padding04">Chicken</button>
+        <button class="padding04">Rice</button>
+      </div>
     </div>
+
+
+    <!-- Tab content -->
+      <div class="tabcontent">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <figure class="padding-03" class="img-set">
+                <img src="img/fastfood/chickenBurger.jpg" alt="image of chicken Burger.">
+                  <figcaption align="center">Chicken Burger</figcaption>
+              </figure>
+            </div>
+
+                  <div class="col-md-4">
+              <figure class="img-set">
+                <img src="img/fastfood/beefBurger.jpg" alt="image of Beef Burger.">
+                <figcaption align="center">Beef Burger</figcaption>
+              </figure>
+                </div>
+
+                  <div class="col-md-4">
+              <figure class="padding-0" class="img-set">
+            <img src="img/fastfood/chickenPizza.jpg" alt="image of chickenPizza.">
+            <figcaption align="center">Chicken Pizza</figcaption>
+              </figure>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
 
     <!--End 5th row-->
 
@@ -137,7 +190,8 @@
           <span style="font-size:30px;color:#F15A29;"> &#8249; </span>
           <img src="img/customers/p1.png"  class="img-responsive">
           <img src="img/customers/p2.png"  class="img-responsive">
-          <img src="img/customers/p3.png"  class="img-responsive"><span style="font-size:30px;color:#F15A29;"> &#8250;</span>
+          <img src="img/customers/p3.png"  class="img-responsive">
+          <span style="font-size:30px;color:#F15A29;"> &#8250;</span>
         </div>
         </div>
           <div class="col-md-4" id="bord">
