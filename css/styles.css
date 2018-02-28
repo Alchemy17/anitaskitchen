@@ -117,14 +117,14 @@ aside{
   padding: 10px;
 	margin: 0px;
 	border: none;
-	padding-right: 0px;
+	padding-right: 0px;;
 
   -webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
   -moz-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
   box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
   border-style: solid;
   border-color: transparent;
-  margin-top: 7%;
+  margin-top: 12%;
   width: 530px;
 }
 
