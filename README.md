@@ -1,17 +1,18 @@
 #Anita's Kitchen
 
-This is a project about making a website for Anita's Restaurant. It has been written using HTML, CSS and BOOTSTRAP.
-
 ##By Abdulrahman Mohamed
 
 ###Description
 
-Images were provided by Moringa School but the designing was done by me, using knowledge from Moringa and other sources as well
+Images were provided by Moringa School but the designing was done by me, using knowledge from Moringa and other sources as well.
+This is a project about making a website for Anita's Restaurant. It has been written using HTML, CSS and BOOTSTRAP.
+
 
 ###Requirements
 
 A working browser.
-Technologies Used
+
+###Technologies Used
 HTML
 CSS
 BOOTSTRAP
