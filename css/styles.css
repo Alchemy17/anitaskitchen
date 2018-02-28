@@ -314,3 +314,50 @@ figcaption{
   color: #F15A29;
   text-align: center;
 }
+
+.meal1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.meals {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  float: left;
+}
+.section2 {
+  width: 95%;
+
+}
+#Breakfast {
+  background-image: url("../images/foodtop/breakfast.jpg");
+
+}
+#Lunch {
+  background-image: url("../images/foodtop/lunch.jpg");
+}
+#Dinner {
+  background-image: url("../images/foodtop/dinner.jpg");
+}
+#Happy-Hour {
+  height: 50%;
+  background-color: #ccc;
+}
+#Party-Time {
+  height: 50%;
+  background-color: #F15A29;
+
+}
+.extra {
+  width:25%;
+  height: 25%;
+  float: left;
+}
+#pdn{
+  padding-left: 20px;
+}
